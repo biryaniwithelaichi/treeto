@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});require("child_process");require("crypto");require("node:fs");require("node:os");require("node:path");require("node:util");const e=require("./index-B-kSrMS1.js");require("electron");require("electron-devtools-installer");require("lodash");require("mac-ca");exports.actionHandlers=e.actionHandlers;exports.clearUserData=e.clearUserData;exports.hideDockIconIfNeeded=e.hideDockIconIfNeeded;
+//# sourceMappingURL=index.js.map

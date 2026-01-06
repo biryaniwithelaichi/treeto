@@ -1,0 +1,2 @@
+"use strict";const o=require("fs"),c=require("crypto"),a=require("path"),i=require("./index-B-kSrMS1.js"),n=e=>{const t=c.createHash("sha1").update(e).digest("hex");return a.join(i.getHomeDir(),".aws","sso","cache",`${t}.json`)},{readFile:h}=o.promises,s={},u=async e=>{if(s[e])return s[e];const r=n(e),t=await h(r,"utf8");return JSON.parse(t)};exports.getSSOTokenFilepath=n;exports.getSSOTokenFromFile=u;exports.tokenIntercept=s;
+//# sourceMappingURL=getSSOTokenFromFile-c3UheaqJ.js.map
